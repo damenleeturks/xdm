@@ -11,10 +11,7 @@
 [Unreleased](https://github.com/adobe/xdm/releases/tag/v0.9.1)
 
 * Renames all `Metric` schemas to `Metric Definition` #254
-<<<<<<< HEAD
 * Moved web metrics used in ExperienceEvent \\metrics to the webinteraction and webpageview contexts #316
-=======
 * Moved `Commerce` metrics used in ExperienceEvent `\metrics` to the `\commerce` context #317
 * Shortened the URI field name for the web events to `https://ns.adobe.com/xdm/metrics/*` by dropping the 'data'. #317
 * `abandons` metric field name change to `cartAbandons` `https://ns.adobe.com/xdm/metrics/cartAbandons. #317
->>>>>>> Issue-#265---Part2---Moved-commerce-metrics-to-the-commerce-context
