@@ -11,6 +11,7 @@
 [Unreleased](https://github.com/adobe/xdm/releases/tag/v0.9.1)
 
 * Renames all `Metric` schemas to `Metric Definition` #254
+<<<<<<< HEAD
 * Moved web metrics used in ExperienceEvent \\metrics to the webinteraction and webpageview contexts #316
 * Moved `Commerce` metrics used in ExperienceEvent `\metrics` to the `\commerce` context #317
 * Shortened the URI field name for the web events to `https://ns.adobe.com/xdm/metrics/*` by dropping the 'data'. #317
@@ -18,3 +19,6 @@
 * Added application and mobile context via `\context\application.schema.json` #318
 * Fixed issue where `\context\experienceevent` `xdm:application` referred to the 'application.schema.json' in `\channels` #318
 * `xdm:application` in `\context\experienceevent` `@id` renamed to `xdm:id` #318
+=======
+* Removed the required constraint from `\xdm\external\schema\geo*.schema.json` #315
+>>>>>>> Issue-308---Geo-@id-needs-to-be-removed
