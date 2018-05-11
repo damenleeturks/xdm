@@ -28,21 +28,21 @@
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description": "Click(s) actions on an advertisement."
         },
-        "https://ns.adobe.com/xdm/data/metrics/application/closes": {
+        "https://ns.adobe.com/xdm/metrics/closes": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description": "Graceful termination(s) of an application."
         },
-        "https://ns.adobe.com/xdm/data/metrics/application/crashes": {
+        "https://ns.adobe.com/xdm/metrics/crashes": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Triggered when the application does not exit gracefully. Event is sent on application launch after a crash."
         },
-        "https://ns.adobe.com/xdm/data/metrics/application/featureusages": {
+        "https://ns.adobe.com/xdm/metrics/featureusages": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Activation(s) of an application feature that is being measured."
         },
-        "https://ns.adobe.com/xdm/data/metrics/application/installs": {
+        "https://ns.adobe.com/xdm/metrics/installs": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Install of an application on a device. Triggered on first launch after install."
@@ -52,7 +52,7 @@
           "description":
             "Impression(s) of an advertisement to an end user with the potential of being viewed."
         },
-        "https://ns.adobe.com/xdm/data/metrics/application/launches": {
+        "https://ns.adobe.com/xdm/metrics/launches": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Launch of an application. Triggered on every run, including crashes and installs. Also triggered on a resume from background when the lifecycle session timeout has been exceeded."
@@ -67,7 +67,6 @@
           "description":
             "Asynchronous message(s) failed to deliver in a way that indicates that no future delivery attempts will be successful to the address."
         },
-<<<<<<< HEAD
         "https://ns.adobe.com/xdm/data/metrics/commerce/product-list-adds": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
@@ -105,18 +104,17 @@
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Product-list is saved for future use. Example a product wish list."
-=======
-        "https://ns.adobe.com/xdm/data/metrics/web/page-views": {
+        },
+        "https://ns.adobe.com/xdm/metrics/page-views": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description": "View(s) of a webpage has occurred."
->>>>>>> Issue-#265---Part2---Moved-commerce-metrics-to-the-commerce-context
         },
         "https://ns.adobe.com/xdm/data/metrics/direct-marketing/sends": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Asynchronous message(s) (email, SMS, MMS etc) have been dispatched to a person's account/address/device."
         },
-        "https://ns.adobe.com/xdm/data/metrics/application/upgrades": {
+        "https://ns.adobe.com/xdm/metrics/upgrades": {
           "$ref": "https://ns.adobe.com/xdm/data/measure",
           "description":
             "Upgrade of an application that has previously been installed. Triggered on first launch after upgrade."
