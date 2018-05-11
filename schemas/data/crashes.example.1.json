@@ -1,0 +1,6 @@
+{
+  "schema:name": "application metric: crashes",
+  "@id": "https://ns.adobe.com/xdm/metrics/crashes",
+  "xdm:measurement": "count",
+  "xdm:unit": null
+}

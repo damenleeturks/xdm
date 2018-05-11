@@ -14,4 +14,7 @@
 * Moved web metrics used in ExperienceEvent \\metrics to the webinteraction and webpageview contexts #316
 * Moved `Commerce` metrics used in ExperienceEvent `\metrics` to the `\commerce` context #317
 * Shortened the URI field name for the web events to `https://ns.adobe.com/xdm/metrics/*` by dropping the 'data'. #317
-* `abandons` metric field name change to `cartAbandons` `https://ns.adobe.com/xdm/metrics/cartAbandons. #317
+* `abandons` metric field name change to `cartAbandons` `https://ns.adobe.com/xdm/metrics/cartAbandons`. #317
+* Added application and mobile context via `\context\application.schema.json` #318
+* Fixed issue where `\context\experienceevent` `xdm:application` referred to the 'application.schema.json' in `\channels` #318
+* `xdm:application` in `\context\experienceevent` `@id` renamed to `xdm:id` #318
