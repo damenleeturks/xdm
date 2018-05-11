@@ -48,7 +48,12 @@
     "xdm:connectionType": "cable"
   },
   "xdm:metrics": {
+<<<<<<< HEAD
     "https://ns.adobe.com/xdm/data/metrics/commerce/purchases": {
+=======
+    "https://ns.adobe.com/xdm/data/metrics/web/page-views": {
+      "@type": "https://ns.adobe.com/xdm/data/metrics/web/page-views",
+>>>>>>> Issue-#265---Part2---Moved-commerce-metrics-to-the-commerce-context
       "xdm:value": 1.0,
       "xdm:unit": null
     }
@@ -83,6 +88,10 @@
       ],
       "xdm:currencyCode": "USD",
       "xdm:priceTotal": 159.0
+    },
+    "https://ns.adobe.com/xdm/metrics/commerce/purchases": {
+      "xdm:value": 1.0,
+      "xdm:unit": null
     }
   },
   "xdm:placeContext": {
