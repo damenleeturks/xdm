@@ -140,8 +140,8 @@ The `package.json` script will fetch a released version of the AEM Markdown Impo
 
 * [schema.org](http://schema.org)
 * [Dublin Core](http://dublincore.org/)
-* [OWL](http://www.w3.org/TR/2009/REC-owl2-overview-20091027/)
-* [SKOS Core](http://www.w3.org/TR/2009/REC-skos-reference-20090818/)
+* [OWL](https://www.w3.org/TR/owl2-overview/)
+* [SKOS Core](https://www.w3.org/TR/skos-reference/)
 
 ## License/Copyright
 
